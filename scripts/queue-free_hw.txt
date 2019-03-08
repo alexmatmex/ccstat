@@ -1,0 +1,18 @@
+Cluster Huawei
+
+
+server: bcm-head
+
+Queue            Memory CPU Time Walltime Node  Run Que Lm  State
+---------------- ------ -------- -------- ----  --- --- --  -----
+short              --      --    00:15:00   --    0   0 --   E R
+gpu                --      --    240:00:0   --    5   0 --   E R
+long               --      --    336:00:0   --   36   3 --   E R
+                                               ----- -----
+                                                  41     3
+
+
+Tasks in the queue:
+101260.bcm-head            8GREEN@G16       egracheva              0 Q long           
+101261.bcm-head            9GREEN@G16       egracheva              0 Q long           
+101765.bcm-head            G16              andrej                 0 Q long           

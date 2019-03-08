@@ -1,0 +1,37 @@
+Cluster SMP
+
+
+server: pbs-smp
+
+Queue            Memory CPU Time Walltime Node  Run Que Lm  State
+---------------- ------ -------- -------- ----  --- --- --  -----
+smp-hp             --      --    720:00:0   --    2   0 --   E R
+bigsmp05           --      --    8760:00:   --    0   0 --   E R
+bigsmp06           --      --    720:00:0   --    1   0 --   E R
+bigsmp04           --      --    8760:00:   --    0   0 --   E R
+bigsmp07           --      --    720:00:0   --    1  19 --   E R
+node-032           --      --    8760:00:   --    2   0 --   E R
+                                               ----- -----
+                                                   6    19
+
+
+Tasks in the queue:
+5511.pbs-smp               ..._without1@G16 avvasiliev             0 Q bigsmp07       
+5512.pbs-smp               ...t_exo_me1@G16 avvasiliev             0 Q bigsmp07       
+5513.pbs-smp               ..._endo_me1@G16 avvasiliev             0 Q bigsmp07       
+5514.pbs-smp               ...ar_ph_thf@G16 avvasiliev             0 Q bigsmp07       
+5515.pbs-smp               ...ct_exo_PS@G16 avvasiliev             0 Q bigsmp07       
+5516.pbs-smp               ...t_endo_PS@G16 avvasiliev             0 Q bigsmp07       
+5517.pbs-smp               TS_endo_PC@G16   avvasiliev             0 Q bigsmp07       
+5518.pbs-smp               TS_exo_PC@G16    avvasiliev             0 Q bigsmp07       
+5519.pbs-smp               TS_planar_PC@G16 avvasiliev             0 Q bigsmp07       
+5522.pbs-smp               3-mpc@G16        avvasiliev             0 Q bigsmp07       
+5523.pbs-smp               ...clization@G16 avvasiliev             0 Q bigsmp07       
+5524.pbs-smp               aziridine@G16    avvasiliev             0 Q bigsmp07       
+5525.pbs-smp               ...n_dioxide@G16 avvasiliev             0 Q bigsmp07       
+5526.pbs-smp               lactone@G16      avvasiliev             0 Q bigsmp07       
+5527.pbs-smp               TS_aziridine@G16 avvasiliev             0 Q bigsmp07       
+5528.pbs-smp               ...f_lactone@G16 avvasiliev             0 Q bigsmp07       
+5529.pbs-smp               ...clization@G16 avvasiliev             0 Q bigsmp07       
+5530.pbs-smp               ...f_lactone@G16 avvasiliev             0 Q bigsmp07       
+5531.pbs-smp               ylide@G16        avvasiliev             0 Q bigsmp07       

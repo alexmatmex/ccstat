@@ -1,0 +1,12 @@
+Cluster SMP
+
+Total: 424
+Free:  294
+Use:   130
+----------
+  bigsmp01: 64 / 64
+  bigsmp02: 52 / 64
+  bigsmp03:  0 / 64
+  bigsmp04: 14 / 28
+  bigsmp05:  0 / 144
+  node-032:  0 / 60

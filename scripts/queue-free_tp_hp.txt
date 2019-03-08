@@ -1,0 +1,19 @@
+Cluster TP and HP
+
+
+server: pbs-tp-new
+
+Queue            Memory CPU Time Walltime Node  Run Que Lm  State
+---------------- ------ -------- -------- ----  --- --- --  -----
+long               --      --    336:00:0   --    3   1 --   E R
+short              --      --    01:00:00   --    0   0 --   E R
+hp_long            --      --    96:00:00   --    5   0 --   E R
+gpu3               --      --    336:00:0   --    2   0 --   E R
+gpu8               --      --    240:00:0   --    0   0 --   E R
+smm                --      --    720:00:0   --    1   0 --   E R
+                                               ----- -----
+                                                  11     1
+
+
+Tasks in the queue:
+17499.pbs-tp-new           run.kkr_tp       ekpetrov               0 Q long           

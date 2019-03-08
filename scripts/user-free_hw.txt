@@ -1,0 +1,131 @@
+Cluster Huawei
+
+|    node    |     user      |             job name              |   job id   |   queue    |  left walltime  |
+|------------+---------------+-----------------------------------+------------+------------+-----------------|
+|  node-001  |    marshel    |          opt_all_1@CR17           |   101705   |    long    |    13d 05:23    |
+|  node-001  |  eroginskij   |           abinit_11645            |   101420   |    long    |    11d 01:20    |
+|  node-001  |   kuznetsov   |           abinit_27231            |   101317   |    long    |    10d 15:55    |
+|  node-001  | vvpavlovskiy  |                G16                |   101182   |    long    |    10d 08:12    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-002  |    marshel    |          opt_all_1@CR17           |   101705   |    long    |    13d 05:23    |
+|  node-002  |   egracheva   |            7GREEN@G16             |   101259   |    long    |    13d 01:59    |
+|  node-002  |    andrej     |                G16                |   101612   |    long    |    12d 12:39    |
+|  node-002  |  eroginskij   |           abinit_11645            |   101420   |    long    |    11d 01:20    |
+|  node-002  |   mdsapova    |              Crystal              |   101209   |    long    |    10d 06:42    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-003  |    marshel    |          opt_all_1@CR17           |   101705   |    long    |    13d 05:23    |
+|  node-003  |   ivkazakov   |    acnAlC6F53_dcm_opt_popl@G16    |   101390   |    long    |    11d 07:57    |
+|  node-003  |  eroginskij   |           abinit_11645            |   101420   |    long    |    11d 01:20    |
+|  node-003  |   mdsapova    |              Crystal              |   101208   |    long    |    9d 16:54     |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-004  |   kuznetsov   |           abinit_15155            |   101768   |    long    |    13d 19:52    |
+|  node-004  |    andrej     |                G16                |   101760   |    long    |    13d 17:51    |
+|  node-004  |  avkovalenko  | mosse2_NT_66_pho_HSE06GRM_in@CR17 |   101293   |    long    |    11d 12:10    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-005  |  akhlebnikov  |                G16                |   101770   |    long    |    13d 20:00    |
+|  node-005  |  eroginskij   |           abinit_11645            |   101420   |    long    |    11d 01:20    |
+|  node-005  |   mdsapova    |              Crystal              |   101209   |    long    |    10d 06:42    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-006  |    marshel    |          opt_all_1@CR17           |   101705   |    long    |    13d 05:23    |
+|  node-006  |  akhlebnikov  |                G16                |   101039   |    long    |    12d 08:25    |
+|  node-006  |   egracheva   |            8GREEN@G16             |   101492   |    long    |    11d 20:05    |
+|  node-006  |  avkovalenko  | mosse2_NT_66_pho_HSE06GRM_in@CR17 |   101293   |    long    |    11d 12:10    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-007  |   egracheva   |            7GREEN@G16             |   101259   |    long    |    13d 01:59    |
+|  node-007  |  avkovalenko  | mosse2_NT_66_pho_HSE06GRM_in@CR17 |   101293   |    long    |    11d 12:10    |
+|  node-007  |   kuznetsov   |            abinit_2272            |   101455   |    long    |    11d 07:07    |
+|  node-007  |   mdsapova    |              Crystal              |   101209   |    long    |    10d 06:42    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-008  |  akhlebnikov  |                G16                |   101771   |    long    |    13d 20:01    |
+|  node-008  |  avkovalenko  | mosse2_NT_66_pho_HSE06GRM_in@CR17 |   101293   |    long    |    11d 12:10    |
+|  node-008  |   mdsapova    |              Crystal              |   101209   |    long    |    10d 06:42    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-009  |    marshel    |          opt_all_1@CR17           |   101705   |    long    |    13d 05:23    |
+|  node-009  |   egracheva   |            8GREEN@G16             |   101492   |    long    |    11d 20:05    |
+|  node-009  |   mdsapova    |              Crystal              |   101209   |    long    |    10d 06:42    |
+|  node-009  |    vporsev    |            I2L1-t@G16             |   100076   |    long    |    0d 06:38     |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-010  |   egracheva   |            7GREEN@G16             |   101259   |    long    |    13d 01:59    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-011  |   kuznetsov   |            abinit_2272            |   101455   |    long    |    11d 07:07    |
+|  node-011  |   kuznetsov   |           abinit_27231            |   101317   |    long    |    10d 15:55    |
+|  node-011  |   mdsapova    |              Crystal              |   101208   |    long    |    9d 16:54     |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-012  |  avkovalenko  | mosse2_NT_66_pho_HSE06GRM_in@CR17 |   101293   |    long    |    11d 12:10    |
+|  node-012  |   kuznetsov   |            abinit_2272            |   101455   |    long    |    11d 07:07    |
+|  node-012  | vvpavlovskiy  |                G16                |   101182   |    long    |    10d 08:12    |
+|  node-012  |   mdsapova    |              Crystal              |   101209   |    long    |    10d 06:42    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-013  |  avkovalenko  | mosse2_NT_66_pho_HSE06GRM_in@CR17 |   101293   |    long    |    11d 12:10    |
+|  node-013  |  eroginskij   |           abinit_11645            |   101420   |    long    |    11d 01:20    |
+|  node-013  |   mdsapova    |              Crystal              |   101208   |    long    |    9d 16:54     |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-014  |   kuznetsov   |            abinit_2272            |   101455   |    long    |    11d 07:07    |
+|  node-014  |  eroginskij   |           abinit_11645            |   101420   |    long    |    11d 01:20    |
+|  node-014  |    vporsev    |           Ir-mega-t@G16           |   101414   |    long    |    11d 01:18    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-015  |    andrej     |                G16                |   101573   |    long    |    12d 05:09    |
+|  node-015  |   egracheva   |            9GREEN@G16             |   101491   |    long    |    11d 17:32    |
+|  node-015  |  eroginskij   |           abinit_11645            |   101420   |    long    |    11d 01:20    |
+|  node-015  |   kuznetsov   |           abinit_27231            |   101317   |    long    |    10d 15:55    |
+|  node-015  | vvpavlovskiy  |                G16                |   101182   |    long    |    10d 08:12    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-016  |   egracheva   |            9GREEN@G16             |   101491   |    long    |    11d 17:32    |
+|  node-016  |  avkovalenko  | mosse2_NT_66_pho_HSE06GRM_in@CR17 |   101293   |    long    |    11d 12:10    |
+|  node-016  |   kuznetsov   |           abinit_27231            |   101317   |    long    |    10d 15:55    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-017  |   egracheva   |            9GREEN@G16             |   101491   |    long    |    11d 17:32    |
+|  node-017  |  avkovalenko  | mosse2_NT_66_pho_HSE06GRM_in@CR17 |   101293   |    long    |    11d 12:10    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-018  |  avkovalenko  | mosse2_NT_66_pho_HSE06GRM_in@CR17 |   101293   |    long    |    11d 12:10    |
+|  node-018  |   ivkazakov   |    acnAlC6F53_dcm_opt_popl@G16    |   101390   |    long    |    11d 07:57    |
+|  node-018  |   kuznetsov   |            abinit_2272            |   101455   |    long    |    11d 07:07    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-019  |    andrej     |                G16                |   101613   |    long    |    12d 14:38    |
+|  node-019  |   kuznetsov   |            abinit_2272            |   101455   |    long    |    11d 07:07    |
+|  node-019  |  eroginskij   |           abinit_11645            |   101420   |    long    |    11d 01:20    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-020  |   egracheva   |            9GREEN@G16             |   101491   |    long    |    11d 17:32    |
+|  node-020  |  avkovalenko  | mosse2_NT_66_pho_HSE06GRM_in@CR17 |   101293   |    long    |    11d 12:10    |
+|  node-020  |   kuznetsov   |            abinit_2272            |   101455   |    long    |    11d 07:07    |
+|  node-020  |  eroginskij   |           abinit_11645            |   101420   |    long    |    11d 01:20    |
+|  node-020  |    vporsev    |             I1L1@G16              |   101273   |    long    |    10d 01:53    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-021  | rekevorkiantc |         abinit.1551840187         |   101476   |    long    |    11d 13:20    |
+|  node-021  |   abandura    |              CRYSTAL              |   101450   |    long    |    11d 05:46    |
+|  node-021  |    rabdano    | Amber_ff15ipq_SPCEb_0.1M_NaCl_NPT |   101726   |    gpu     |    9d 07:33     |
+|  node-021  |  abkuznetsov  |      spn-frq2-tvzp-grmi@CR17      |   101066   |    long    |    7d 23:12     |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-022  |  avpomogaeva  |        SA_6311_dif_dp_frq         |   101519   |    long    |    11d 22:20    |
+|  node-022  |   egracheva   |            7GREEN@G16             |   101493   |    long    |    11d 21:08    |
+|  node-022  | rekevorkiantc |         abinit.1551840187         |   101476   |    long    |    11d 13:20    |
+|  node-022  | rekevorkiantc |         abinit.1551763955         |   101350   |    long    |    10d 15:46    |
+|  node-022  |  isilanteva   |        queue_run_gpu.bash         |   100632   |    gpu     |    0d 01:42     |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-023  | rekevorkiantc |         abinit.1551763955         |   101350   |    long    |    10d 15:46    |
+|  node-023  |   ivkazakov   |    acnAlC6F53_bnz_opt_popl@G16    |   100576   |    long    |    4d 04:43     |
+|  node-023  |  atimoshkin   |       GaC6F53_acn_opt_popl        |   100570   |    long    |    3d 20:43     |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-024  | rekevorkiantc |         abinit.1551840187         |   101476   |    long    |    11d 13:20    |
+|  node-024  | rekevorkiantc |         abinit.1551763955         |   101350   |    long    |    10d 15:46    |
+|  node-024  |   ivkazakov   |    acnAlC6F53_bnz_opt_popl@G16    |   100576   |    long    |    4d 04:43     |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-025  |   ivkazakov   |     acnAlC6F53_diethr_smd@G16     |   101391   |    long    |    11d 11:56    |
+|  node-025  | rekevorkiantc |         abinit.1551763955         |   101350   |    long    |    10d 15:46    |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-026  | rekevorkiantc |         abinit.1551840187         |   101476   |    long    |    11d 13:20    |
+|  node-026  |   abandura    |              CRYSTAL              |   101450   |    long    |    11d 05:46    |
+|  node-026  | rekevorkiantc |         abinit.1551763955         |   101350   |    long    |    10d 15:46    |
+|  node-026  |    andrej     |                G16                |   101229   |    long    |    9d 17:03     |
+|  node-026  |  isilanteva   |        queue_run_gpu.bash         |   101400   |    gpu     |    6d 22:43     |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-027  |    rabdano    |          4_ff14SB_TIP4PD          |   101635   |    gpu     |    8d 19:13     |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-028  |  abkuznetsov  |      spn-frq2-tvzp-grmi@CR17      |   101066   |    long    |    7d 23:12     |
+|  node-028  |  atimoshkin   |       GaC6F53_bnz_opt_popl        |   100571   |    long    |    3d 21:51     |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |
+|  node-029  | rekevorkiantc |         abinit.1551840187         |   101476   |    long    |    11d 13:20    |
+|  node-029  |    vporsev    |            Ir-mega@G16            |   101413   |    long    |    11d 00:43    |
+|  node-029  |   kuznetsov   |             MS_ZETSF              |   100843   |    long    |    6d 03:24     |
+|  node-029  |    rabdano    |          3_ff14SB_TIP4PD          |   100938   |    gpu     |    2d 19:47     |
+| ---------- |  ----------   |            ----------             | ---------- | ---------- |   ----------    |

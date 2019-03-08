@@ -1,0 +1,20 @@
+Cluster DS (Demonstration Stand)
+
+
+server: pbs-ds
+
+Queue            Memory CPU Time Walltime Node  Run Que Lm  State
+---------------- ------ -------- -------- ----  --- --- --  -----
+batch              --      --       --      --    0   0 --   E R
+ra                 --      --    8760:00:   --    2   0 --   E R
+ds00               --      --    720:00:0   --    0   0 --   E R
+ds01               --      --    720:00:0   --    1   0 --   E R
+ds02               --      --    720:00:0   --    0   0 --   E R
+ds03               --      --    720:00:0   --    0   0 --   E R
+ds04               --      --    720:00:0   --    0   0 --   E R
+ds05               --      --    720:00:0   --    0   0 --   E R
+                                               ----- -----
+                                                   3     0
+
+
+Tasks in the queue:
