@@ -3,9 +3,11 @@
 RAM: 2GB;
 HDD: 5MB;
 Service: httpd, crond
+Language: python2.7
 
 1) Подготовка:
 # yum install httpd
+# yum install python27
 # /etc/init.d/httpd start
 # /etc/init.d/crond start
 
