@@ -5,7 +5,22 @@ HDD: 5MB;
 Service: httpd, crond
 
 1) Подготовка:
+# yum install httpd
+# /etc/init.d/httpd start
+# /etc/init.d/crond start
 
 2) Установка:
+# cd /root
+# git clone git@github.com:alexmatmex/ccstat.git
+# cd ccstat
+# ls -l
+# cp -R scripts /root/scripts
+# cp gpu-cpu-free.py /root
+# cp qstat.sh /root
+# cp user-free.py /root
 
 3) Запуск: 
+# crontab -e # вставляем все строки из файла crontab.conf 
+
+4) Вход:
+Браузер: http://ip/ccstat
