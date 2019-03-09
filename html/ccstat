@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Мониторинг кластеров РЦ ВЦ</title>
+ </head>
+ <frameset rows="10%,5%,85%">
+ <frame src="top.html" name="CONTENT1">
+ <frameset cols="10%,18%,45%,27%">
+  <frame src="menu_name.html">
+  <frame src="nodes.html">
+  <frame src="user.html">
+  <frame src="queue.html">
+ </frameset>
+ <frameset cols="10%,90%">
+  <frame src="menu.html">
+  <frame src="content_hw.html" name="content">
+ </frameset>
+ </frameset>
+</html>

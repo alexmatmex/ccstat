@@ -2,14 +2,23 @@
 ОС: CentOS 6(7);
 RAM: 2GB;
 HDD: 5MB;
-Service: httpd, crond
+Service: httpd, crond, trqauthd
 Language: python2.7
+LAN: ваша машина с ПО должны быть в локальной сети РЦ ВЦ
 
 1) Подготовка:
 # yum install httpd
 # yum install python27
 # /etc/init.d/httpd start
 # /etc/init.d/crond start
+# yum -y install epel-release
+# yum install torque torque-client
+# systemctl start trqauthd
+# systemctl enable trqauthd
+# echo "192.168.19.100" > /etc/torque/server_name
+# systemctl restart trqauthd
+# mkdir -p /mnt/rhel-6/huawei/torque/6.0.0/
+# ln -s /usr/bin/ /mnt/rhel-6/huawei/torque/6.0.0/
 
 2) Установка:
 # cd /root
@@ -20,6 +29,7 @@ Language: python2.7
 # cp gpu-cpu-free.py /root
 # cp qstat.sh /root
 # cp user-free.py /root
+# cp html/* /var/www/html/
 
 3) Запуск: 
 # crontab -e # вставляем все строки из файла crontab.conf 
